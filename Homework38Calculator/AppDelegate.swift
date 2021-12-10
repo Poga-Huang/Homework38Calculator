@@ -6,6 +6,22 @@
 //
 
 import UIKit
+extension UIView{
+    func addGradientlayer(view:UIView){
+        let grdientLayer = CAGradientLayer()
+        let pinkColor = UIColor(red: 255/255, green: 235/255, blue: 244/255, alpha: 1)
+        let whiteColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
+        let blueColor = UIColor(red: 209/255, green: 233/255, blue: 255/255, alpha: 1)
+        grdientLayer.frame = view.frame
+        grdientLayer.colors = [pinkColor.cgColor,whiteColor.cgColor,blueColor.cgColor]
+        grdientLayer.locations = [0,0.4,0.7,1]
+        view.layer.insertSublayer(grdientLayer, at: 0)
+    }
+    func makeCircleButton(view:UIView){
+        view.layer.cornerRadius = view.frame.width/2
+        view.clipsToBounds = true
+    }
+}
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

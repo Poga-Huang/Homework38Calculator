@@ -13,6 +13,7 @@
 		D66323832761E31F008EEBC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66323812761E31F008EEBC3 /* Main.storyboard */; };
 		D66323852761E325008EEBC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66323842761E325008EEBC3 /* Assets.xcassets */; };
 		D66323882761E325008EEBC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66323862761E325008EEBC3 /* LaunchScreen.storyboard */; };
+		D6E38BAE27634C22004E1B1A /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E38BAD27634C22004E1B1A /* DoubleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D66323842761E325008EEBC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D66323872761E325008EEBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D66323892761E325008EEBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E38BAD27634C22004E1B1A /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D663237B2761E31F008EEBC3 /* AppDelegate.swift */,
 				D663237D2761E31F008EEBC3 /* SceneDelegate.swift */,
 				D663237F2761E31F008EEBC3 /* ViewController.swift */,
+				D6E38BAD27634C22004E1B1A /* DoubleExtension.swift */,
 				D66323812761E31F008EEBC3 /* Main.storyboard */,
 				D66323842761E325008EEBC3 /* Assets.xcassets */,
 				D66323862761E325008EEBC3 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				D66323802761E31F008EEBC3 /* ViewController.swift in Sources */,
 				D663237C2761E31F008EEBC3 /* AppDelegate.swift in Sources */,
+				D6E38BAE27634C22004E1B1A /* DoubleExtension.swift in Sources */,
 				D663237E2761E31F008EEBC3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
